@@ -105,13 +105,12 @@ const KDSLanding = () => {
               KDS Pricing
             </span>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
-              Transparent Kitchen Display Plans
+              Transparent Kitchen Display Plan
             </h2>
             <p className="mt-4 text-base sm:text-lg text-slate-600">
               Transform communication between front-of-house and kitchen staff.
             </p>
           </motion.div>
-
           {/* Billing Switcher */}
           <div className="flex justify-center mb-8">
             <div className="inline-flex items-center p-1.5 rounded-full bg-slate-200/70 border border-slate-300/60 shadow-inner">
@@ -128,9 +127,8 @@ const KDSLanding = () => {
                 onClick={() => setIsYearly(true)}
               >
                 <span>Yearly</span>
-                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${
-                  isYearly ? 'bg-emerald-400 text-slate-950' : 'bg-slate-300 text-slate-700'
-                }`}>
+                <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${isYearly ? 'bg-emerald-400 text-slate-950' : 'bg-slate-300 text-slate-700'
+                  }`}>
                   12 Months
                 </span>
               </button>
