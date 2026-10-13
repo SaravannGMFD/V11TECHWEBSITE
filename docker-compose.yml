@@ -1,0 +1,9 @@
+services:
+  v11tech-web:
+    build: .
+    container_name: v11tech_website
+    restart: always
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production
